@@ -1,0 +1,152 @@
+/* CSS Document */
+#container
+{
+position:fixed;
+width:100%;
+height:100%;
+display:none;
+z-index:1000;
+}
+.container
+{
+
+position:fixed;
+width:100%;
+height:100%;
+display:none;
+z-index:1000;
+}
+#mask 
+{
+position: absolute;
+left: 0;
+top: 0;
+z-index: 9000;
+background-color: #fff;
+display: none;
+}
+#popup
+{
+opacity:1;
+border-radius:10px;
+position:absolute;
+width:600px;
+height:400px;
+background-color:#f8f8f8;
+border:1px solid #d4d3d3;
+top:250px;/*adjust accordingly to position popup*/
+left:24%;/*adjust accordingly to position popup*/
+/*shadow effect start*/
+webkit-box-shadow: 0px 1px 5px 0px #4a4a4a; 
+-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+box-shadow: 0px -1px 35px 1px #ccc
+/*shadow effect end*/
+}
+#close
+{
+float:right;
+right:-20px;/*adjust accordingly to position close link*/
+top:-10px;
+text-decoration:none;
+color:#ffffff;
+position:absolute;
+}
+.close
+{
+float:right;
+right:-20px;/*adjust accordingly to position close link*/
+top:-10px;
+text-decoration:none;
+color:#ffffff;
+position:absolute;
+}
+.top_menu {
+	font-family:Calibri;
+	font-size:13px;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.top_phone {
+	font-family:Calibri;
+	font-size:15px;
+	color:#08a8ca;
+	font-weight:normal;
+}
+
+.top_mail {
+	font-family:Calibri;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.top_mail a:link {
+	font-family:Calibri;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.top_mail a:hover {
+	font-family:Calibri;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.main_menu {
+	font-family:Calibri;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.main_menu a:link {
+	font-family:Calibri;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.main_menu a:hover {
+	font-family:Calibri;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-decoration:none;
+}
+#social {
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-left: 340px;
+	line-height: 0;
+}
+
+#social li {
+	float: left;
+	margin-right: 8px;
+}
+
+#social li a {
+	opacity: .3;
+}
+
+#social li a:hover {
+	opacity: 1;
+}
+
+#social img {
+	height: 25px;
+	line-height: 0;
+}
+#trip-adv{
+	height:113px;
+	width:120px;
+	padding-left:35px;
+}
